@@ -234,4 +234,99 @@ nav ul li a{
     border: 3px solid #000;
 }
 
+.marque-1:hover > .trait hr{
+    border: 3px solid #57c5a0;
+}
 
+.marque-2:hover > .trait hr{
+    border: 3px solid #57c5a0;
+}
+
+.marque-3:hover > .trait hr{
+    border: 3px solid #57c5a0;
+}
+
+.marque-4:hover > .trait hr{
+    border: 3px solid #57c5a0;
+}
+
+.marque-5:hover > .trait hr{
+    border: 3px solid #57c5a0;
+}
+
+
+
+.highlight hr{
+    border: 3px solid #57c5a0;
+}
+
+.droit {
+    border-right: 1px solid #7e7e7e;
+}
+
+.marque-1{
+    margin-bottom: 10px;
+}
+
+.text-marque:hover{
+    cursor: pointer;
+    color: #FFF;
+}
+
+.marque-1:hover{
+    cursor: pointer;
+    color: #FFF;
+}
+.marque-2:hover{
+    cursor: pointer;
+    color: #FFF;
+}
+.marque-3:hover{
+    cursor: pointer;
+    color: #FFF;
+}
+.marque-4:hover{
+    cursor: pointer;
+    color: #FFF;
+}
+.marque-5:hover{
+    cursor: pointer;
+    color: #FFF;
+}
+
+.vignettes{
+    background-color: #242424;
+
+}
+
+.vignette{
+    margin: 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 158px;
+}
+
+
+.vignette-gauche{
+    background-image: url('../img/onsale.png');
+}
+
+.vignette-milieu{
+    background-image: url('../img/specialoffers.png');
+}
+.vignette-droite{
+    background-image: url('../img/musthave.png');
+}
+
+.text-vignette{
+    padding: 20px;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+.vignette:hover{
+    cursor: pointer;
+}
